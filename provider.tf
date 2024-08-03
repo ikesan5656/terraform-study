@@ -1,5 +1,5 @@
 provider "aws" {
   region = var.region
-  shared_credentials_files = ["~/.aws/credentials"]
-  profile = var.profile
+  access_key = var.AWS_ACCESS_KEY_ID
+  secret_key = var.AWS_SECRET_ACCESS_KEY
 }
